@@ -1,0 +1,227 @@
+[
+  {
+      "name": "Joel Blomqvist",
+      "country": "Finland",
+      "position": "G",
+      "team": " Hermes",
+      "league": " Finland 2nd division ",
+      "nhl_rights": "Pittsburgh Penguins",
+      "url": ""
+  },
+  {
+      "name": "Kari Piiroinen",
+      "country": "Finland",
+      "position": "G",
+      "team": " Tuto",
+      "league": " Finland 2nd division ",
+      "nhl_rights": "2021 draft eligible",
+      "url": "https://www.eliteprospects.com/player/395514/kari-piiroinen"
+  },
+  {
+      "name": "Roope Taponen",
+      "country": "Finland",
+      "position": "G",
+      "team": " K-Espoo",
+      "league": " Finland 2nd division ",
+      "nhl_rights": "2021 draft eligible",
+      "url": "https://www.eliteprospects.com/player/375923/roope-taponen"
+  },
+  {
+      "name": "Santeri Hatakka",
+      "country": "Finland",
+      "position": "D",
+      "team": " Ilves",
+      "league": " Liiga ",
+      "nhl_rights": "San Jose Sharks",
+      "url": "https://www.eliteprospects.com/player/397011/santeri-hatakka"
+  },
+  {
+      "name": "Ville Heinola",
+      "country": "Finland",
+      "position": "D",
+      "team": " Lukko",
+      "league": " Liiga ",
+      "nhl_rights": "Winnipeg Jets",
+      "url": "https://www.eliteprospects.com/player/428795/ville-heinola"
+  },
+  {
+      "name": "Mikko Kokkonen",
+      "country": "Finland",
+      "position": "D",
+      "team": " Jukurit",
+      "league": " Liiga ",
+      "nhl_rights": "Toronto Maple Leafs",
+      "url": ""
+  },
+  {
+      "name": "Topi Niemela",
+      "country": "Finland",
+      "position": "D",
+      "team": " Karpat",
+      "league": " Liiga ",
+      "nhl_rights": "Toronto Maple Leafs",
+      "url": "https://www.eliteprospects.com/player/499424/topi-niemela"
+  },
+  {
+      "name": "Kasper Puutio",
+      "country": "Finland",
+      "position": "D",
+      "team": " Karpat Jr.",
+      "league": " Finland Jr. league ",
+      "nhl_rights": "Florida Panthers",
+      "url": "https://www.eliteprospects.com/player/467380/kasper-puutio"
+  },
+  {
+      "name": "Ruben Rafkin",
+      "country": "Finland",
+      "position": "D",
+      "team": " TPS",
+      "league": " Liiga ",
+      "nhl_rights": "2021 draft eligible",
+      "url": "https://www.eliteprospects.com/player/285312/ruben-rafkin"
+  },
+  {
+      "name": "Matias Rajaniemi",
+      "country": "Finland",
+      "position": "D",
+      "team": " Pelicans",
+      "league": " Liiga ",
+      "nhl_rights": "New York Islanders",
+      "url": "https://www.eliteprospects.com/player/499512/matias-rajaniemi"
+  },
+  {
+      "name": "Eemil Viro",
+      "country": "Finland",
+      "position": "D",
+      "team": " TPS",
+      "league": " Liiga ",
+      "nhl_rights": "Detroit Red Wings",
+      "url": "https://www.eliteprospects.com/player/499518/eemil-viro"
+  },
+  {
+      "name": "Samuel Helenius",
+      "country": "Finland",
+      "position": "F",
+      "team": " JYP",
+      "league": " Liiga ",
+      "nhl_rights": "2021 draft eligible",
+      "url": "https://www.eliteprospects.com/player/554237/samuel-helenius"
+  },
+  {
+      "name": "Roni Hirvonen",
+      "country": "Finland",
+      "position": "F",
+      "team": " Assat",
+      "league": " Liiga ",
+      "nhl_rights": "Toronto Maple Leafs",
+      "url": "https://www.eliteprospects.com/player/448946/roni-hirvonen"
+  },
+  {
+      "name": "Roby Jarventie",
+      "country": "Finland",
+      "position": "F",
+      "team": " Ilves",
+      "league": " Liiga ",
+      "nhl_rights": "Ottawa Senators",
+      "url": "https://www.eliteprospects.com/player/534236/roby-jarventie"
+  },
+  {
+      "name": "Benjamin Korhonen",
+      "country": "Finland",
+      "position": "F",
+      "team": " KalPa",
+      "league": " Liiga ",
+      "nhl_rights": "2021 draft eligible",
+      "url": "https://www.eliteprospects.com/player/428862/benjamin-korhonen"
+  },
+  {
+      "name": "Brad Lambert",
+      "country": "Finland",
+      "position": "F",
+      "team": " JYP",
+      "league": " Liiga ",
+      "nhl_rights": "2022 draft eligible",
+      "url": ""
+  },
+  {
+      "name": "Anton Lundell",
+      "country": "Finland",
+      "position": "F",
+      "team": " HIFK",
+      "league": " Liiga ",
+      "nhl_rights": "Florida Panthers",
+      "url": "https://www.eliteprospects.com/player/360145/anton-lundell"
+  },
+  {
+      "name": "Matias Mantykivi",
+      "country": "Finland",
+      "position": "F",
+      "team": " SaiPa",
+      "league": " Liiga ",
+      "nhl_rights": "Boston Bruins",
+      "url": "https://www.eliteprospects.com/player/428827/matias-mantykivi"
+  },
+  {
+      "name": "Henri Nikkanen",
+      "country": "Finland",
+      "position": "F",
+      "team": " Jukurit",
+      "league": " Liiga ",
+      "nhl_rights": "Winnipeg Jets",
+      "url": "https://www.eliteprospects.com/player/395081/henri-nikkanen"
+  },
+  {
+      "name": "Juuso Parssinen",
+      "country": "Finland",
+      "position": "F",
+      "team": " TPS",
+      "league": " Liiga ",
+      "nhl_rights": "Nashville Predators",
+      "url": "https://www.eliteprospects.com/player/396656/juuso-parssinen"
+  },
+  {
+      "name": "Mikko Petman",
+      "country": "Finland",
+      "position": "F",
+      "team": " Lukko",
+      "league": " Liiga ",
+      "nhl_rights": "2021 draft eligible",
+      "url": "https://www.eliteprospects.com/player/376191/mikko-petman"
+  },
+  {
+      "name": "Petteri Puhakka",
+      "country": "Finland",
+      "position": "F",
+      "team": " Tappara Jr.",
+      "league": " Finland Jr. league ",
+      "nhl_rights": "2021 draft eligible",
+      "url": "https://www.eliteprospects.com/player/429284/petteri-puhakka"
+  },
+  {
+      "name": "Mikael Pyyhtia",
+      "country": "Finland",
+      "position": "F",
+      "team": " TPS Jr.",
+      "league": " Finland Jr. league ",
+      "nhl_rights": "Columbus Blue Jackets",
+      "url": "https://www.eliteprospects.com/player/470710/mikael-pyyhtia"
+  },
+  {
+      "name": "Aku Raty",
+      "country": "Finland",
+      "position": "F",
+      "team": " Karpat",
+      "league": " Liiga ",
+      "nhl_rights": "Arizona Coyotes",
+      "url": "https://www.eliteprospects.com/player/395509/aku-raty"
+  },
+  {
+      "name": "Kasper Simontaival",
+      "country": "Finland",
+      "position": "F",
+      "team": " Tappara",
+      "league": " Liiga ",
+      "nhl_rights": "Los Angeles Kings",
+      "url": "https://www.eliteprospects.com/player/397010/kasper-simontaival"
+  }
+]
