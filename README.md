@@ -2,7 +2,7 @@
 
 Current status of data collection:
 
-I have 8 of 10 teams, currently missing USA roster. Right now just linking to Elite Prospects pages for each player, which I will update to pull stats from there soon.
+Right now just linking to Elite Prospects pages for each player, which I will update to pull stats from there soon.
 
 ## Rosters
 
