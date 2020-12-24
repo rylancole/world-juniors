@@ -1,11 +1,13 @@
-import os
-import json
+import requests
+from bs4 import BeautifulSoup
 
 def main():
-  countries = [country[:-5] for country in os.listdir('./json')]
+  response = requests.get("https://www.eliteprospects.com/ajax/team.player-stats?teamId=1618&season=2020-2021&position=")
+  html = response.content
   
-  for country in countries:
-    print('\"'+country+'\",')
+  soup = BeautifulSoup(html, 'html.parser')
+  links = soup.find_all('a')
+  print(links)
 
 if __name__ == "__main__":
   main()
