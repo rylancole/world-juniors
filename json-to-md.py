@@ -22,7 +22,8 @@ def main():
     for pick in roster:
       pos = player_data[pick]['pos']
       href = player_data[pick]['href']
-      player_map[pos].append(f"- [{pick}]({href})\n")
+      team = player_data[pick]['team']
+      player_map[pos].append(f"| [{pick}]({href}) | {team} |\n")
 
     md_file.write(f"## {user}\n")
 
@@ -30,6 +31,8 @@ def main():
       ls = player_map[position]
       
       md_file.write(f"### {position}\n")
+      md_file.write(f"| Player | Team |\n")
+      md_file.write(f"| :----- | ---: |\n")
       for p in ls:
         md_file.write(p)
 

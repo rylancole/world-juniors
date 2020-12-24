@@ -9,29 +9,43 @@ def getSoup(url):
   
   return BeautifulSoup(html, 'html.parser')
 
+def handleTd(obj, td):
+  cl = td.get('class')
+
+  if cl == ['player']:
+    a_list = td.find_all('a')
+    for a in a_list:
+      match = re.match('(.*)\s\((.*)\)', a.text)
+      if match:
+        name, pos = match.groups()
+        if pos != "D": pos = 'F'
+        obj["name"] = name
+        obj["pos"] = pos
+      else:
+        obj["name"] = a.text
+        obj["pos"] = "G"
+      obj["href"] = a.get('href')
+
+  elif cl == ['team']:
+    a_list = td.find_all('a')
+    for a in a_list:
+      match = re.match(' (.*) U20', a.text)
+      if match:
+        obj["team"] = match.group(1)
+
 def getPlayersFromSoup(players, soup):
-  td_list = soup.find_all('td')
+  tr_list = soup.find_all('tr')
 
-  for td in td_list:
-    if td.get("class") == ['player']:
-      a_list = td.find_all('a')
-      for a in a_list:
-        match = re.match('(.*)\s\((.*)\)', a.text)
-        if match:
-          name, pos = match.groups()
-          if pos != "D": pos = 'F'
-          players[name] = {
-            "pos": pos,
-            "href": a.get('href')
-          }
-        else:
-          players[a.text] = {
-            "pos": "G",
-            "href": a.get('href')
-          }
+  for tr in tr_list:
+    td_list = tr.find_all('td')
 
-  return players
+    player_obj = {}
 
+    for td in td_list:
+      handleTd(player_obj, td)
+
+    if player_obj and "name" in player_obj.keys():
+      players[player_obj["name"]] = player_obj
 
 def main():
   players = {}
