@@ -23,18 +23,29 @@ def main():
       pos = player_data[pick]['pos']
       href = player_data[pick]['href']
       team = player_data[pick]['team']
-      player_map[pos].append(f"| [{pick}]({href}) | {team} |\n")
+
+      if pos == "G":
+        player_map[pos].append(f"| [{pick}]({href}) | {pos} | {team} | | | | | | |\n")
+      else:
+        player_map[pos].append(f"| [{pick}]({href}) | {pos} | {team} | | | | | | |\n")
 
     md_file.write(f"## {user}\n")
+    md_file.write(f"| Player | Pos | Team | G | A | SOG | PIM | +\- | TPM |\n")
+    md_file.write(f"| :----- | --- |  --- | - | - | --- | --- | --- | --: |\n")
 
-    for position in player_map:
-      ls = player_map[position]
-      
-      md_file.write(f"### {position}\n")
-      md_file.write(f"| Player | Team |\n")
-      md_file.write(f"| :----- | ---: |\n")
-      for p in ls:
-        md_file.write(p)
+    
+    skaters = player_map["F"]
+    skaters.extend(player_map["D"])
+
+    for sk in skaters:
+      md_file.write(sk)
+
+    md_file.write(f"\n| Player | Pos | Team | S% | GAA |\n")
+    md_file.write(f"| :----- | --- |  --- | -- | --: |\n")
+
+    goalies = player_map["G"]
+    for g in goalies:
+      md_file.write(g)
 
 if __name__ == "__main__":
   main()
