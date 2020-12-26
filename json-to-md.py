@@ -1,4 +1,5 @@
 import json
+import re
 
 def validatePick(pick):
   KEYS = [
@@ -35,6 +36,11 @@ def main():
       "G": []
     }
 
+    g_total = 0
+    a_total = 0
+    pim_total = 0
+    pm_total = 0
+
     for pick in roster:
 
       if validatePick(player_data[pick]):
@@ -50,6 +56,12 @@ def main():
           a = player_data[pick]['a']
           pim = player_data[pick]['pim']
           pm = player_data[pick]['pm']
+
+          if re.match('\d+', g): g_total += int(g)
+          if re.match('\d+', a): a_total += int(a)
+          if re.match('\d+', pim): pim_total += int(pim)
+          if re.match('\d+', pm): pm_total += int(pm)
+
           player_map[pos].append(f"| [{pick}]({href}) | {pos} | {team} | {g} | {a} | | {pim} | {pm} | |\n")
 
     md_file.write(f"## {user}\n")
@@ -60,8 +72,10 @@ def main():
     skaters = player_map["F"]
     skaters.extend(player_map["D"])
 
-    for sk in skaters:
+    for sk in skaters:      
       md_file.write(sk)
+
+    md_file.write(f"| **Totals** | | | {g_total} | {a_total} | | {pim_total} | {pm_total} | |\n")
 
     md_file.write(f"\n| Player | Pos | Team | S% | GAA |\n")
     md_file.write(f"| :----- | --- |  --- | -- | --: |\n")
