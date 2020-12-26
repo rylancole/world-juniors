@@ -1,0 +1,50 @@
+{
+    "Alasdair": {
+        "Goals": 2,
+        "Assists": 4,
+        "Penalties in Minutes": 0,
+        "Plus / Minus": 3,
+        "Save Percentage": "-",
+        "Goals Against Average": "-"
+    },
+    "Trevor": {
+        "Goals": 2,
+        "Assists": 0,
+        "Penalties in Minutes": 4,
+        "Plus / Minus": 5,
+        "Save Percentage": "-",
+        "Goals Against Average": "-"
+    },
+    "Michael": {
+        "Goals": 2,
+        "Assists": 4,
+        "Penalties in Minutes": 0,
+        "Plus / Minus": 5,
+        "Save Percentage": 0.667,
+        "Goals Against Average": 7.44
+    },
+    "Austin": {
+        "Goals": 0,
+        "Assists": 0,
+        "Penalties in Minutes": 2,
+        "Plus / Minus": 0,
+        "Save Percentage": "-",
+        "Goals Against Average": "-"
+    },
+    "Leevon": {
+        "Goals": 0,
+        "Assists": 3,
+        "Penalties in Minutes": 2,
+        "Plus / Minus": 0,
+        "Save Percentage": 1.0,
+        "Goals Against Average": 0.0
+    },
+    "Rylan": {
+        "Goals": 1,
+        "Assists": 1,
+        "Penalties in Minutes": 2,
+        "Plus / Minus": 1,
+        "Save Percentage": 0.885,
+        "Goals Against Average": 3.0
+    }
+}
