@@ -71,7 +71,7 @@ def main():
           if re.match('\d+', g): g_total += int(g)
           if re.match('\d+', a): a_total += int(a)
           if re.match('\d+', pim): pim_total += int(pim)
-          if re.match('\d+', pm): pm_total += int(pm)
+          if re.match('\-?\d+', pm): pm_total += int(pm)
 
           player_map[pos].append(f"| [{pick}]({href}) | {pos} | {team} | {g} | {a} | | {pim} | {pm} | |\n")
 
