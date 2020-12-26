@@ -1,5 +1,21 @@
 import json
 
+def validatePick(pick):
+  KEYS = [
+    "href",
+    "team",
+    "pos"
+  ]
+
+  for k in KEYS:
+    if k not in pick.keys():
+      print(f"\n### ERROR: Missing {k}")
+      print()
+      print(json.dumps(pick, indent=4))
+      return False
+
+  return True
+
 def main():
   with open('./draft-picks.json', 'r') as json_file:
     draft_data = json.loads(json_file.read())
@@ -20,17 +36,24 @@ def main():
     }
 
     for pick in roster:
-      pos = player_data[pick]['pos']
-      href = player_data[pick]['href']
-      team = player_data[pick]['team']
 
-      if pos == "G":
-        player_map[pos].append(f"| [{pick}]({href}) | {pos} | {team} | | | | | | |\n")
-      else:
-        player_map[pos].append(f"| [{pick}]({href}) | {pos} | {team} | | | | | | |\n")
+      if validatePick(player_data[pick]):
+
+        href = player_data[pick]['href']
+        pos = player_data[pick]['pos']
+        team = player_data[pick]['team']
+
+        if pos == "G":
+          player_map[pos].append(f"| [{pick}]({href}) | {pos} | | |\n")
+        else:
+          g = player_data[pick]['g']
+          a = player_data[pick]['a']
+          pim = player_data[pick]['pim']
+          pm = player_data[pick]['pm']
+          player_map[pos].append(f"| [{pick}]({href}) | {pos} | {team} | {g} | {a} | | {pim} | {pm} | |\n")
 
     md_file.write(f"## {user}\n")
-    md_file.write(f"| Player | Pos | Team | G | A | SOG | PIM | +\- | TPM |\n")
+    md_file.write(f"| Player | Pos | Team | G | A | SOG | PIM | +/- | TPM |\n")
     md_file.write(f"| :----- | --- |  --- | - | - | --- | --- | --- | --: |\n")
 
     

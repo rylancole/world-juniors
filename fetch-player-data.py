@@ -12,6 +12,7 @@ def getSoup(url):
 def handleTd(obj, td):
   cl = td.get('class')
 
+  ## Parse Name, href, and Position
   if cl == ['player']:
     a_list = td.find_all('a')
     for a in a_list:
@@ -26,15 +27,32 @@ def handleTd(obj, td):
         obj["pos"] = "G"
       obj["href"] = a.get('href')
 
+  ## Parse Team
   elif cl == ['team']:
+    # if "name" in obj.keys(): print(f"Parsing team for {obj['name']}")
     a_list = td.find_all('a')
     for a in a_list:
-      match = re.match(' (.*) U20', a.text)
+      match = re.match('(.*) U20', a.text)
       if match:
         obj["team"] = match.group(1)
+        # print(f"\t Found {match.group(1)}")
+
+  elif cl in [['g'], ['a'], ['pim'], ['pm']]:
+    obj[cl[0]] = td.text.strip()
+
+def getInnerWrapper(soup):
+  div_list = soup.find_all('div')
+  for div in div_list:
+    if div.get("class") == ['innerwrapper']:
+      return div
 
 def getPlayersFromSoup(players, soup):
-  tr_list = soup.find_all('tr')
+  inner_wrapper = getInnerWrapper(soup)
+  if inner_wrapper:
+    tr_list = inner_wrapper.find_all('tr')
+  else:
+    print("### INNER WRAPPER NOT FOUND")
+    return
 
   for tr in tr_list:
     td_list = tr.find_all('td')
