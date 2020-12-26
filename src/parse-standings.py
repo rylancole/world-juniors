@@ -29,19 +29,29 @@ def main():
     STANDINGS_md.write(f"| Rank | User | {category} |\n")
     STANDINGS_md.write(f"| :--- | ---- | ---------: |\n")
 
-    for i, p in enumerate(st):
-      STANDINGS_md.write(f"| {i+1} | [{p[1]}](https://github.com/rylancole/world-juniors/blob/master/ROSTERS.md#{p[1]}) |  {p[0]} |\n")
+    last_p0 = st[0][0]
+    i = 1
+    for p in st:
+      if p[0] != last_p0:
+        i += 1
+      STANDINGS_md.write(f"| {i} | [{p[1]}](https://github.com/rylancole/world-juniors/blob/master/ROSTERS.md#{p[1]}) |  {p[0]} |\n")
+      last_p0 = p[0]
+
+      if p[1] in overall_points.keys():
+        overall_points[p[1]].append(7-i)
+      else:
+        overall_points[p[1]] = [7-i]
 
   README_md = open('../README.md', 'w')
 
-  README_md.write(f"| Rank | User | [G](https://github.com/rylancole/world-juniors/blob/master/STANDINGS.md#goals) | [A](https://github.com/rylancole/world-juniors/blob/master/STANDINGS.md#assists) | [PIM](https://github.com/rylancole/world-juniors/blob/master/STANDINGS.md#penalties-in-minutes) | [+/-](https://github.com/rylancole/world-juniors/blob/master/STANDINGS.md#plus--minus) | [S%](https://github.com/rylancole/world-juniors/blob/master/STANDINGS.md#save-percentage) | [GAA](https://github.com/rylancole/world-juniors/blob/master/STANDINGS.md#goals-against-average) |\n")
-  README_md.write(f"| :--- | ---- | ---- | ---- | ---- | ---- | ---- | -----: |\n")
+  README_md.write(f"| User | [G](https://github.com/rylancole/world-juniors/blob/master/STANDINGS.md#goals) | [A](https://github.com/rylancole/world-juniors/blob/master/STANDINGS.md#assists) | [PIM](https://github.com/rylancole/world-juniors/blob/master/STANDINGS.md#penalties-in-minutes) | [+/-](https://github.com/rylancole/world-juniors/blob/master/STANDINGS.md#plus--minus) | [S%](https://github.com/rylancole/world-juniors/blob/master/STANDINGS.md#save-percentage) | [GAA](https://github.com/rylancole/world-juniors/blob/master/STANDINGS.md#goals-against-average) | Total |\n")
+  README_md.write(f"| :--- | ---- | ---- | ---- | ---- | ---- | ---- |  -----: |\n")
 
-  for i, user in enumerate(ranking_data):
-    README_md.write(f"| {i+1} | {user} | ")
-    for p in ranking_data[user]:
-      README_md.write(f"{ranking_data[user][p]} | ")
-    README_md.write(f"\n")
+  for user in overall_points:
+    README_md.write(f"| {user} | ")
+    for p in overall_points[user]:
+      README_md.write(f"{p} | ")
+    README_md.write(f"{sum(overall_points[user])} |\n")
 
   
 

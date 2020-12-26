@@ -58,8 +58,14 @@ def main():
           gaa = player_data[pick]['gaa']
           svp = player_data[pick]['svp']
 
-          if re.match('[\d\.]+', gaa): gaa_list.append(float(gaa)) 
-          if re.match('[\d\.]+', svp): svp_list.append(float(svp)) 
+          if re.match('[\d\.]+', gaa): 
+            gaa_list.append(float(gaa)) 
+          else:
+            gaa_list.append(100.0)
+          if re.match('[\d\.]+', svp): 
+            svp_list.append(float(svp)) 
+          else:
+            svp_list.append(0.0)
 
           player_map[pos].append(f"| [{pick}]({href}) | {pos} | {team} | {svp} | {gaa} |\n")
         else:

@@ -4,16 +4,16 @@
         "Assists": 4,
         "Penalties in Minutes": 0,
         "Plus / Minus": 1,
-        "Save Percentage": "-",
-        "Goals Against Average": "-"
+        "Save Percentage": 0.0,
+        "Goals Against Average": 100.0
     },
     "Trevor": {
         "Goals": 2,
         "Assists": 0,
         "Penalties in Minutes": 4,
         "Plus / Minus": 5,
-        "Save Percentage": "-",
-        "Goals Against Average": "-"
+        "Save Percentage": 0.0,
+        "Goals Against Average": 100.0
     },
     "Michael": {
         "Goals": 2,
@@ -28,8 +28,8 @@
         "Assists": 0,
         "Penalties in Minutes": 2,
         "Plus / Minus": -3,
-        "Save Percentage": "-",
-        "Goals Against Average": "-"
+        "Save Percentage": 0.0,
+        "Goals Against Average": 100.0
     },
     "Leevon": {
         "Goals": 0,
