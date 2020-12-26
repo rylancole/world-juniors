@@ -50,7 +50,10 @@ def main():
         team = player_data[pick]['team']
 
         if pos == "G":
-          player_map[pos].append(f"| [{pick}]({href}) | {pos} | | |\n")
+          gaa = player_data[pick]['gaa']
+          svp = player_data[pick]['svp']
+
+          player_map[pos].append(f"| [{pick}]({href}) | {pos} | {team} | {svp} | {gaa} |\n")
         else:
           g = player_data[pick]['g']
           a = player_data[pick]['a']

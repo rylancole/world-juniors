@@ -37,8 +37,12 @@ def handleTd(obj, td):
         obj["team"] = match.group(1)
         # print(f"\t Found {match.group(1)}")
 
-  elif cl in [['g'], ['a'], ['pim'], ['pm']]:
+  # Parse Stats
+  elif cl in [['g'], ['a'], ['pim'], ['pm'], ['gaa']]:
     obj[cl[0]] = td.text.strip()
+
+  elif 'svp' in cl:
+    obj['svp'] = td.text.strip()
 
 def getInnerWrapper(soup):
   div_list = soup.find_all('div')

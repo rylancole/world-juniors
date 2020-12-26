@@ -17,8 +17,8 @@
 
 | Player | Pos | Team | S% | GAA |
 | :----- | --- |  --- | -- | --: |
-| [Joel Blomqvist](https://www.eliteprospects.com/player/495890/joel-blomqvist) | G | | |
-| [Dylan Garand](https://www.eliteprospects.com/player/473852/dylan-garand) | G | | |
+| [Joel Blomqvist](https://www.eliteprospects.com/player/495890/joel-blomqvist) | G |  Finland | - | - |
+| [Dylan Garand](https://www.eliteprospects.com/player/473852/dylan-garand) | G |  Canada | - | - |
 ## Trevor
 | Player | Pos | Team | G | A | SOG | PIM | +/- | TPM |
 | :----- | --- |  --- | - | - | --- | --- | --- | --: |
@@ -37,7 +37,7 @@
 
 | Player | Pos | Team | S% | GAA |
 | :----- | --- |  --- | -- | --: |
-| [Devon Levi](https://www.eliteprospects.com/player/276555/devon-levi) | G | | |
+| [Devon Levi](https://www.eliteprospects.com/player/276555/devon-levi) | G |  Canada | - | - |
 ## Michael
 | Player | Pos | Team | G | A | SOG | PIM | +/- | TPM |
 | :----- | --- |  --- | - | - | --- | --- | --- | --: |
@@ -56,7 +56,7 @@
 
 | Player | Pos | Team | S% | GAA |
 | :----- | --- |  --- | -- | --: |
-| [Spencer Knight](https://www.eliteprospects.com/player/379758/spencer-knight) | G | | |
+| [Spencer Knight](https://www.eliteprospects.com/player/379758/spencer-knight) | G |  USA | .667 | 7.44 |
 ## Austin
 | Player | Pos | Team | G | A | SOG | PIM | +/- | TPM |
 | :----- | --- |  --- | - | - | --- | --- | --- | --: |
@@ -75,7 +75,7 @@
 
 | Player | Pos | Team | S% | GAA |
 | :----- | --- |  --- | -- | --: |
-| [Hugo Alnefelt](https://www.eliteprospects.com/player/346977/hugo-alnefelt) | G | | |
+| [Hugo Alnefelt](https://www.eliteprospects.com/player/346977/hugo-alnefelt) | G |  Sweden | - | - |
 ## Leevon
 | Player | Pos | Team | G | A | SOG | PIM | +/- | TPM |
 | :----- | --- |  --- | - | - | --- | --- | --- | --: |
@@ -94,7 +94,7 @@
 
 | Player | Pos | Team | S% | GAA |
 | :----- | --- |  --- | -- | --: |
-| [Dustin Wolf](https://www.eliteprospects.com/player/369943/dustin-wolf) | G | | |
+| [Dustin Wolf](https://www.eliteprospects.com/player/369943/dustin-wolf) | G |  USA | 1.000 | 0.00 |
 ## Rylan
 | Player | Pos | Team | G | A | SOG | PIM | +/- | TPM |
 | :----- | --- |  --- | - | - | --- | --- | --- | --: |
@@ -112,5 +112,5 @@
 
 | Player | Pos | Team | S% | GAA |
 | :----- | --- |  --- | -- | --: |
-| [Yaroslav Askarov](https://www.eliteprospects.com/player/552036/yaroslav-askarov) | G | | |
-| [Artur Akhtyamov](https://www.eliteprospects.com/player/529802/artur-akhtyamov) | G | | |
+| [Yaroslav Askarov](https://www.eliteprospects.com/player/552036/yaroslav-askarov) | G |  Russia | .885 | 3.00 |
+| [Artur Akhtyamov](https://www.eliteprospects.com/player/529802/artur-akhtyamov) | G |  Russia | - | - |
