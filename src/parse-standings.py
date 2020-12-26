@@ -16,19 +16,35 @@ def main():
         else:
           standings[category] = [(score, user)]
 
-  md_file = open('../STANDINGS.md', 'w')
+  STANDINGS_md = open('../STANDINGS.md', 'w')
+
+  overall_points = {}
 
   for category in standings:
     st = standings[category]
     st.sort()
-    st.reverse()
+    if category != "Goals Against Average": st.reverse()
 
-    md_file.write(f"## {category}\n")
-    md_file.write(f"| User | {category} |\n")
-    md_file.write(f"| :--- |  --------: |\n")
+    STANDINGS_md.write(f"## {category}\n")
+    STANDINGS_md.write(f"| Rank | User | {category} |\n")
+    STANDINGS_md.write(f"| :--- | ---- | ---------: |\n")
 
-    for p in st:
-      md_file.write(f"| {p[1]} |  {p[0]} |\n")
+    n = len(st)
+    for i, p in enumerate(st):
+      STANDINGS_md.write(f"| {i+1} | {p[1]} |  {p[0]} |\n")
+      if p[1] in overall_points.keys():
+        overall_points[p[1]] += n - i
+      else:
+        overall_points[p[1]] = n - i
+
+  README_md = open('../README.md', 'w')
+
+  README_md.write(f"| Rank | User | Points |\n")
+  README_md.write(f"| :--- | ---- | -----: |\n")
+
+  for i, user in enumerate(overall_points):
+    points = overall_points[user]
+    README_md.write(f"| {i} | {user} | {points} |\n")
 
 if __name__ == "__main__":
   main()
