@@ -47,7 +47,7 @@
 | Rank | User | Time Played in Minutes |
 | :--- | ---- | ---------: |
 | 1 | [Michael](https://github.com/rylancole/world-juniors/blob/master/ROSTERS.md#Michael) |  263 |
-| 2 | [Leevon](https://github.com/rylancole/world-juniors/blob/master/ROSTERS.md#Leevon) |  203 |
+| 2 | [Leevon](https://github.com/rylancole/world-juniors/blob/master/ROSTERS.md#Leevon) |  213 |
 | 3 | [Alasdair](https://github.com/rylancole/world-juniors/blob/master/ROSTERS.md#Alasdair) |  201 |
 | 4 | [Austin](https://github.com/rylancole/world-juniors/blob/master/ROSTERS.md#Austin) |  195 |
 | 5 | [Rylan](https://github.com/rylancole/world-juniors/blob/master/ROSTERS.md#Rylan) |  187 |

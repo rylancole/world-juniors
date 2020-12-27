@@ -85,12 +85,12 @@
 | [Alex Turcotte](https://www.eliteprospects.com/player/290043/alex-turcotte) | F |  USA | 0 | 3 | 6 | 0 | 0 | 31 |
 | [Marat Khusnutdinov](https://www.eliteprospects.com/player/552045/marat-khusnutdinov) | F |  Russia | 0 | 1 | 0 | 2 | 0 | 17 |
 | [Cole Perfetti](https://www.eliteprospects.com/player/201940/cole-perfetti) | F |  Canada | 0 | 3 | 5 | 0 | 2 | 12 |
-| [Connor Zary](https://www.eliteprospects.com/player/351805/connor-zary) | F |  Canada | 0 | 0 | 0 | 0 | 2 | 0 |
+| [Connor Zary](https://www.eliteprospects.com/player/351805/connor-zary) | F |  Canada | 0 | 0 | 0 | 0 | 2 | 10 |
 | [Bowen Byram](https://www.eliteprospects.com/player/326522/bowen-byram) | D |  Canada | 0 | 1 | 0 | 0 | 8 | 21 |
 | [Ville Heinola](https://www.eliteprospects.com/player/428795/ville-heinola) | D |  Finland | 0 | 1 | 7 | 0 | 0 | 23 |
 | [Santeri Hatakka](https://www.eliteprospects.com/player/397011/santeri-hatakka) | D |  Finland | 0 | 1 | 1 | 0 | 0 | 20 |
 | [Noah Meier](https://www.eliteprospects.com/player/520239/noah-meier) | D |  Switzerland | 0 | 0 | 1 | 0 | 0 | 15 |
-| **Totals** | | | 0 | 12 | 26 | 2 | 16 | 203 |
+| **Totals** | | | 0 | 12 | 26 | 2 | 16 | 213 |
 
 | Player | Pos | Team | S% | GAA |
 | :----- | --- |  --- | -- | --: |
