@@ -52,7 +52,7 @@ def main():
   README_md = open('../README.md', 'w')
 
   README_md.write(f"| User | [G]({STANDINGS_URL}#goals) | [A]({STANDINGS_URL}#assists) | SOG | [PIM]({STANDINGS_URL}#penalties-in-minutes) | [+/-]({STANDINGS_URL}#plus--minus) | TPM | [S%]({STANDINGS_URL}#save-percentage) | [GAA]({STANDINGS_URL}#goals-against-average) | Total |\n")
-  README_md.write(f"| :--- | ---- | ---- | ---- | ---- | ---- | ---- |  -----: |\n")
+  README_md.write(f"| :--- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- |  -----: |\n")
 
   for user in overall_points:
     README_md.write(f"| [{user}]({ROSTERS_URL}#{user}) | ")
