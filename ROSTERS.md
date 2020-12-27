@@ -13,7 +13,7 @@
 | [Tobias Björnfot](https://www.eliteprospects.com/player/344751/tobias-bjornfot) | D |  Sweden | 0 | 2 | 0 | 0 | 3 | 18 |
 | [Thomas Harley](https://www.eliteprospects.com/player/465160/thomas-harley) | D |  Canada | 1 | 0 | 3 | 0 | 3 | 19 |
 | [Mikko Kokkonen](https://www.eliteprospects.com/player/347571/mikko-kokkonen) | D |  Finland | 0 | 1 | 1 | 0 | 1 | 14 |
-| **Totals** | | | 5 | 9 | | 0 | 10 | |
+| **Totals** | | | 5 | 9 | 22 | 0 | 10 | 170 |
 
 | Player | Pos | Team | S% | GAA |
 | :----- | --- |  --- | -- | --: |
@@ -33,7 +33,7 @@
 | [Semyon Chistyakov](https://www.eliteprospects.com/player/517832/semyon-chistyakov) | D |  Russia | 0 | 0 | 2 | 0 | 2 | 22 |
 | [Yan Kuznetsov](https://www.eliteprospects.com/player/440410/yan-kuznetsov) | D |  Russia | 0 | 0 | 0 | 2 | 0 | 18 |
 | [Kaiden Guhle](https://www.eliteprospects.com/player/413363/kaiden-guhle) | D |  Canada | 1 | 0 | 1 | 2 | 4 | 18 |
-| **Totals** | | | 8 | 5 | | 10 | 24 | |
+| **Totals** | | | 8 | 5 | 27 | 10 | 24 | 186 |
 
 | Player | Pos | Team | S% | GAA |
 | :----- | --- |  --- | -- | --: |
@@ -52,7 +52,7 @@
 | [Victor Söderström](https://www.eliteprospects.com/player/344555/victor-soderstrom) | D |  Sweden | 0 | 3 | 1 | 0 | 1 | 21 |
 | [Topi Niemelä](https://www.eliteprospects.com/player/499424/topi-niemela) | D |  Finland | 1 | 1 | 4 | 0 | 1 | 16 |
 | [Shakir Mukhamadullin](https://www.eliteprospects.com/player/552042/shakir-mukhamadullin) | D |  Russia | 0 | 0 | 0 | 0 | 2 | 21 |
-| **Totals** | | | 4 | 13 | | 0 | -4 | |
+| **Totals** | | | 4 | 13 | 39 | 0 | -4 | 218 |
 
 | Player | Pos | Team | S% | GAA |
 | :----- | --- |  --- | -- | --: |
@@ -71,7 +71,7 @@
 | [Ryan Johnson](https://www.eliteprospects.com/player/290138/ryan-johnson) | D |  USA | 0 | 0 | 0 | 2 | 0 | 14 |
 | [Henry Thrun](https://www.eliteprospects.com/player/445218/henry-thrun) | D |  USA | 0 | 0 | 0 | 0 | -1 | 15 |
 | [Braden Schneider](https://www.eliteprospects.com/player/351820/braden-schneider) | D |  Canada | 0 | 0 | 0 | 25 | 0 | 1 |
-| **Totals** | | | 5 | 4 | | 29 | 9 | |
+| **Totals** | | | 5 | 4 | 15 | 29 | 9 | 134 |
 
 | Player | Pos | Team | S% | GAA |
 | :----- | --- |  --- | -- | --: |
@@ -90,7 +90,7 @@
 | [Ville Heinola](https://www.eliteprospects.com/player/428795/ville-heinola) | D |  Finland | 0 | 1 | 7 | 0 | 0 | 23 |
 | [Santeri Hatakka](https://www.eliteprospects.com/player/397011/santeri-hatakka) | D |  Finland | 0 | 1 | 1 | 0 | 0 | 20 |
 | [Noah Meier](https://www.eliteprospects.com/player/520239/noah-meier) | D |  Switzerland | 0 | 0 | 1 | 0 | 0 | 15 |
-| **Totals** | | | 0 | 8 | | 2 | 11 | |
+| **Totals** | | | 0 | 8 | 21 | 2 | 11 | 173 |
 
 | Player | Pos | Team | S% | GAA |
 | :----- | --- |  --- | -- | --: |
@@ -108,7 +108,7 @@
 | [Daniil Chayka](https://www.eliteprospects.com/player/514651/daniil-chayka) | D |  Russia | 0 | 0 | 1 | 0 | -1 | 17 |
 | [Stanislav Svozil](https://www.eliteprospects.com/player/428002/stanislav-svozil) | D |  Czech Republic | 0 | 0 | 0 | 4 | 0 | 15 |
 | [Gustav Berglund](https://www.eliteprospects.com/player/379956/gustav-berglund) | D |  Sweden | 0 | 0 | 0 | 0 | 0 | 0 |
-| **Totals** | | | 2 | 2 | | 10 | -6 | |
+| **Totals** | | | 2 | 2 | 18 | 10 | -6 | 135 |
 
 | Player | Pos | Team | S% | GAA |
 | :----- | --- |  --- | -- | --: |

@@ -34,7 +34,7 @@ def main():
 
     last_p0 = st[0][0]
     i = 1
-    j = 1
+    j = 0
     for p in st:
       if p[0] != last_p0:
         i += j

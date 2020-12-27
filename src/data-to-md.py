@@ -109,7 +109,7 @@ def main():
     for sk in skaters:      
       md_file.write(sk)
 
-    md_file.write(f"| **Totals** | | | {g_total} | {a_total} | | {pim_total} | {pm_total} | |\n")
+    md_file.write(f"| **Totals** | | | {g_total} | {a_total} | {sog_total} | {pim_total} | {pm_total} | {tpm_total} |\n")
 
     md_file.write(f"\n| Player | Pos | Team | S% | GAA |\n")
     md_file.write(f"| :----- | --- |  --- | -- | --: |\n")
