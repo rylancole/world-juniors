@@ -1,5 +1,8 @@
 import json 
 
+ROSTERS_URL = "https://github.com/rylancole/world-juniors/blob/master/ROSTERS.md"
+STANDINGS_URL = "https://github.com/rylancole/world-juniors/blob/master/STANDINGS.md"
+
 def main():
   with open('../json/standings.json', 'r') as json_file:
     ranking_data = json.loads(json_file.read())
@@ -34,7 +37,7 @@ def main():
     for p in st:
       if p[0] != last_p0:
         i += 1
-      STANDINGS_md.write(f"| {i} | [{p[1]}](https://github.com/rylancole/world-juniors/blob/master/ROSTERS.md#{p[1]}) |  {p[0]} |\n")
+      STANDINGS_md.write(f"| {i} | [{p[1]}]({ROSTERS_URL}#{p[1]}) |  {p[0]} |\n")
       last_p0 = p[0]
 
       if p[1] in overall_points.keys():
@@ -44,11 +47,11 @@ def main():
 
   README_md = open('../README.md', 'w')
 
-  README_md.write(f"| User | [G](https://github.com/rylancole/world-juniors/blob/master/STANDINGS.md#goals) | [A](https://github.com/rylancole/world-juniors/blob/master/STANDINGS.md#assists) | [PIM](https://github.com/rylancole/world-juniors/blob/master/STANDINGS.md#penalties-in-minutes) | [+/-](https://github.com/rylancole/world-juniors/blob/master/STANDINGS.md#plus--minus) | [S%](https://github.com/rylancole/world-juniors/blob/master/STANDINGS.md#save-percentage) | [GAA](https://github.com/rylancole/world-juniors/blob/master/STANDINGS.md#goals-against-average) | Total |\n")
+  README_md.write(f"| User | [G]({STANDINGS_URL}#goals) | [A]({STANDINGS_URL}#assists) | [PIM]({STANDINGS_URL}#penalties-in-minutes) | [+/-]({STANDINGS_URL}#plus--minus) | [S%]({STANDINGS_URL}#save-percentage) | [GAA]({STANDINGS_URL}#goals-against-average) | Total |\n")
   README_md.write(f"| :--- | ---- | ---- | ---- | ---- | ---- | ---- |  -----: |\n")
 
   for user in overall_points:
-    README_md.write(f"| {user} | ")
+    README_md.write(f"| [{user}]({ROSTERS_URL}#{user}) | ")
     for p in overall_points[user]:
       README_md.write(f"{p} | ")
     README_md.write(f"{sum(overall_points[user])} |\n")
