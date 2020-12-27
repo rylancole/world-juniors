@@ -120,51 +120,51 @@
     " USA": {
         "Cameron York": {
             "SOG": 4,
-            "TPM": 22
+            "TPM": 40
         },
         "Matthew Boldy": {
-            "SOG": 0,
-            "TPM": 19
+            "SOG": 6,
+            "TPM": 32
         },
         "Trevor Zegras": {
-            "SOG": 1,
-            "TPM": 18
+            "SOG": 9,
+            "TPM": 31
         },
         "Cole Caufield": {
-            "SOG": 5,
-            "TPM": 17
+            "SOG": 11,
+            "TPM": 35
         },
         "Bobby Brink": {
-            "SOG": 2,
-            "TPM": 13
+            "SOG": 4,
+            "TPM": 27
         },
         "Arthur Kaliyev": {
-            "SOG": 2,
-            "TPM": 15
+            "SOG": 9,
+            "TPM": 31
         },
         "Ryan Johnson": {
-            "SOG": 0,
-            "TPM": 14
+            "SOG": 3,
+            "TPM": 27
         },
         "Henry Thrun": {
-            "SOG": 0,
-            "TPM": 15
+            "SOG": 5,
+            "TPM": 34
         },
         "Sam Colangelo": {
-            "SOG": 0,
-            "TPM": 5
+            "SOG": 5,
+            "TPM": 18
         },
         "Matthew Beniers": {
-            "SOG": 3,
-            "TPM": 16
+            "SOG": 4,
+            "TPM": 32
         },
         "Alex Turcotte": {
-            "SOG": 2,
-            "TPM": 17
+            "SOG": 6,
+            "TPM": 31
         },
         "Jake Sanderson": {
-            "SOG": 0,
-            "TPM": 17
+            "SOG": 4,
+            "TPM": 33
         }
     },
     " Canada": {
@@ -273,12 +273,12 @@
     },
     " Austria": {
         "Marco Rossi": {
-            "SOG": 0,
-            "TPM": 0
+            "SOG": 2,
+            "TPM": 18
         },
         "Senna Peeters": {
             "SOG": 0,
-            "TPM": 0
+            "TPM": 18
         }
     }
 }

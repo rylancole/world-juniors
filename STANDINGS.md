@@ -2,33 +2,33 @@
 | Rank | User | Goals |
 | :--- | ---- | ---------: |
 | 1 | [Trevor](https://github.com/rylancole/world-juniors/blob/master/ROSTERS.md#Trevor) |  8 |
-| 2 | [Austin](https://github.com/rylancole/world-juniors/blob/master/ROSTERS.md#Austin) |  5 |
-| 2 | [Alasdair](https://github.com/rylancole/world-juniors/blob/master/ROSTERS.md#Alasdair) |  5 |
-| 4 | [Michael](https://github.com/rylancole/world-juniors/blob/master/ROSTERS.md#Michael) |  4 |
+| 1 | [Alasdair](https://github.com/rylancole/world-juniors/blob/master/ROSTERS.md#Alasdair) |  8 |
+| 3 | [Michael](https://github.com/rylancole/world-juniors/blob/master/ROSTERS.md#Michael) |  6 |
+| 3 | [Austin](https://github.com/rylancole/world-juniors/blob/master/ROSTERS.md#Austin) |  6 |
 | 5 | [Rylan](https://github.com/rylancole/world-juniors/blob/master/ROSTERS.md#Rylan) |  2 |
 | 6 | [Leevon](https://github.com/rylancole/world-juniors/blob/master/ROSTERS.md#Leevon) |  0 |
 ## Assists
 | Rank | User | Assists |
 | :--- | ---- | ---------: |
-| 1 | [Michael](https://github.com/rylancole/world-juniors/blob/master/ROSTERS.md#Michael) |  13 |
-| 2 | [Alasdair](https://github.com/rylancole/world-juniors/blob/master/ROSTERS.md#Alasdair) |  9 |
-| 3 | [Leevon](https://github.com/rylancole/world-juniors/blob/master/ROSTERS.md#Leevon) |  8 |
-| 4 | [Trevor](https://github.com/rylancole/world-juniors/blob/master/ROSTERS.md#Trevor) |  5 |
-| 5 | [Austin](https://github.com/rylancole/world-juniors/blob/master/ROSTERS.md#Austin) |  4 |
-| 6 | [Rylan](https://github.com/rylancole/world-juniors/blob/master/ROSTERS.md#Rylan) |  2 |
+| 1 | [Michael](https://github.com/rylancole/world-juniors/blob/master/ROSTERS.md#Michael) |  15 |
+| 2 | [Leevon](https://github.com/rylancole/world-juniors/blob/master/ROSTERS.md#Leevon) |  12 |
+| 3 | [Alasdair](https://github.com/rylancole/world-juniors/blob/master/ROSTERS.md#Alasdair) |  10 |
+| 4 | [Austin](https://github.com/rylancole/world-juniors/blob/master/ROSTERS.md#Austin) |  7 |
+| 5 | [Trevor](https://github.com/rylancole/world-juniors/blob/master/ROSTERS.md#Trevor) |  5 |
+| 6 | [Rylan](https://github.com/rylancole/world-juniors/blob/master/ROSTERS.md#Rylan) |  3 |
 ## Shots on Goal
 | Rank | User | Shots on Goal |
 | :--- | ---- | ---------: |
-| 1 | [Michael](https://github.com/rylancole/world-juniors/blob/master/ROSTERS.md#Michael) |  39 |
-| 2 | [Trevor](https://github.com/rylancole/world-juniors/blob/master/ROSTERS.md#Trevor) |  27 |
-| 3 | [Alasdair](https://github.com/rylancole/world-juniors/blob/master/ROSTERS.md#Alasdair) |  22 |
-| 4 | [Leevon](https://github.com/rylancole/world-juniors/blob/master/ROSTERS.md#Leevon) |  21 |
-| 5 | [Rylan](https://github.com/rylancole/world-juniors/blob/master/ROSTERS.md#Rylan) |  18 |
-| 6 | [Austin](https://github.com/rylancole/world-juniors/blob/master/ROSTERS.md#Austin) |  15 |
+| 1 | [Michael](https://github.com/rylancole/world-juniors/blob/master/ROSTERS.md#Michael) |  55 |
+| 2 | [Austin](https://github.com/rylancole/world-juniors/blob/master/ROSTERS.md#Austin) |  35 |
+| 3 | [Alasdair](https://github.com/rylancole/world-juniors/blob/master/ROSTERS.md#Alasdair) |  28 |
+| 4 | [Trevor](https://github.com/rylancole/world-juniors/blob/master/ROSTERS.md#Trevor) |  27 |
+| 5 | [Leevon](https://github.com/rylancole/world-juniors/blob/master/ROSTERS.md#Leevon) |  26 |
+| 6 | [Rylan](https://github.com/rylancole/world-juniors/blob/master/ROSTERS.md#Rylan) |  24 |
 ## Penalties in Minutes
 | Rank | User | Penalties in Minutes |
 | :--- | ---- | ---------: |
-| 1 | [Austin](https://github.com/rylancole/world-juniors/blob/master/ROSTERS.md#Austin) |  29 |
+| 1 | [Austin](https://github.com/rylancole/world-juniors/blob/master/ROSTERS.md#Austin) |  33 |
 | 2 | [Trevor](https://github.com/rylancole/world-juniors/blob/master/ROSTERS.md#Trevor) |  10 |
 | 2 | [Rylan](https://github.com/rylancole/world-juniors/blob/master/ROSTERS.md#Rylan) |  10 |
 | 4 | [Leevon](https://github.com/rylancole/world-juniors/blob/master/ROSTERS.md#Leevon) |  2 |
@@ -38,20 +38,20 @@
 | Rank | User | Plus / Minus |
 | :--- | ---- | ---------: |
 | 1 | [Trevor](https://github.com/rylancole/world-juniors/blob/master/ROSTERS.md#Trevor) |  24 |
-| 2 | [Leevon](https://github.com/rylancole/world-juniors/blob/master/ROSTERS.md#Leevon) |  11 |
-| 3 | [Alasdair](https://github.com/rylancole/world-juniors/blob/master/ROSTERS.md#Alasdair) |  10 |
-| 4 | [Austin](https://github.com/rylancole/world-juniors/blob/master/ROSTERS.md#Austin) |  9 |
-| 5 | [Michael](https://github.com/rylancole/world-juniors/blob/master/ROSTERS.md#Michael) |  -4 |
-| 6 | [Rylan](https://github.com/rylancole/world-juniors/blob/master/ROSTERS.md#Rylan) |  -6 |
+| 2 | [Austin](https://github.com/rylancole/world-juniors/blob/master/ROSTERS.md#Austin) |  18 |
+| 3 | [Leevon](https://github.com/rylancole/world-juniors/blob/master/ROSTERS.md#Leevon) |  16 |
+| 4 | [Alasdair](https://github.com/rylancole/world-juniors/blob/master/ROSTERS.md#Alasdair) |  13 |
+| 5 | [Michael](https://github.com/rylancole/world-juniors/blob/master/ROSTERS.md#Michael) |  3 |
+| 6 | [Rylan](https://github.com/rylancole/world-juniors/blob/master/ROSTERS.md#Rylan) |  -11 |
 ## Time Played in Minutes
 | Rank | User | Time Played in Minutes |
 | :--- | ---- | ---------: |
-| 1 | [Michael](https://github.com/rylancole/world-juniors/blob/master/ROSTERS.md#Michael) |  218 |
-| 2 | [Trevor](https://github.com/rylancole/world-juniors/blob/master/ROSTERS.md#Trevor) |  186 |
-| 3 | [Leevon](https://github.com/rylancole/world-juniors/blob/master/ROSTERS.md#Leevon) |  173 |
-| 4 | [Alasdair](https://github.com/rylancole/world-juniors/blob/master/ROSTERS.md#Alasdair) |  170 |
-| 5 | [Rylan](https://github.com/rylancole/world-juniors/blob/master/ROSTERS.md#Rylan) |  135 |
-| 6 | [Austin](https://github.com/rylancole/world-juniors/blob/master/ROSTERS.md#Austin) |  134 |
+| 1 | [Michael](https://github.com/rylancole/world-juniors/blob/master/ROSTERS.md#Michael) |  263 |
+| 2 | [Leevon](https://github.com/rylancole/world-juniors/blob/master/ROSTERS.md#Leevon) |  203 |
+| 3 | [Alasdair](https://github.com/rylancole/world-juniors/blob/master/ROSTERS.md#Alasdair) |  201 |
+| 4 | [Austin](https://github.com/rylancole/world-juniors/blob/master/ROSTERS.md#Austin) |  195 |
+| 5 | [Rylan](https://github.com/rylancole/world-juniors/blob/master/ROSTERS.md#Rylan) |  187 |
+| 6 | [Trevor](https://github.com/rylancole/world-juniors/blob/master/ROSTERS.md#Trevor) |  186 |
 ## Save Percentage
 | Rank | User | Save Percentage |
 | :--- | ---- | ---------: |
