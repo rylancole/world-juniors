@@ -34,9 +34,13 @@ def main():
 
     last_p0 = st[0][0]
     i = 1
+    j = 1
     for p in st:
       if p[0] != last_p0:
-        i += 1
+        i += j
+        j = 1
+      else:
+        j += 1
       STANDINGS_md.write(f"| {i} | [{p[1]}]({ROSTERS_URL}#{p[1]}) |  {p[0]} |\n")
       last_p0 = p[0]
 
@@ -47,7 +51,7 @@ def main():
 
   README_md = open('../README.md', 'w')
 
-  README_md.write(f"| User | [G]({STANDINGS_URL}#goals) | [A]({STANDINGS_URL}#assists) | [PIM]({STANDINGS_URL}#penalties-in-minutes) | [+/-]({STANDINGS_URL}#plus--minus) | [S%]({STANDINGS_URL}#save-percentage) | [GAA]({STANDINGS_URL}#goals-against-average) | Total |\n")
+  README_md.write(f"| User | [G]({STANDINGS_URL}#goals) | [A]({STANDINGS_URL}#assists) | SOG | [PIM]({STANDINGS_URL}#penalties-in-minutes) | [+/-]({STANDINGS_URL}#plus--minus) | TPM | [S%]({STANDINGS_URL}#save-percentage) | [GAA]({STANDINGS_URL}#goals-against-average) | Total |\n")
   README_md.write(f"| :--- | ---- | ---- | ---- | ---- | ---- | ---- |  -----: |\n")
 
   for user in overall_points:

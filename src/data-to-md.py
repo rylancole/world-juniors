@@ -42,6 +42,8 @@ def main():
     a_total = 0
     pim_total = 0
     pm_total = 0
+    sog_total = 0
+    tpm_total = 0
 
     gaa_list = []
     svp_list = []
@@ -73,19 +75,25 @@ def main():
           a = player_data[pick]['a']
           pim = player_data[pick]['pim']
           pm = player_data[pick]['pm']
+          sog = player_data[pick]['SOG']
+          tpm = player_data[pick]['TPM']
 
           if re.match('\d+', g): g_total += int(g)
           if re.match('\d+', a): a_total += int(a)
           if re.match('\d+', pim): pim_total += int(pim)
           if re.match('\-?\d+', pm): pm_total += int(pm)
+          sog_total += sog
+          tpm_total += tpm
 
-          player_map[pos].append(f"| [{pick}]({href}) | {pos} | {team} | {g} | {a} | | {pim} | {pm} | |\n")
+          player_map[pos].append(f"| [{pick}]({href}) | {pos} | {team} | {g} | {a} | {sog} | {pim} | {pm} | {tpm} |\n")
 
     ranking_data[user] = {
       "Goals": g_total,
       "Assists": a_total,
+      "Shots on Goal": sog_total,
       "Penalties in Minutes": pim_total,
       "Plus / Minus": pm_total,
+      "Time Played in Minutes": tpm_total,
       "Save Percentage": max(svp_list) if svp_list else '-',
       "Goals Against Average": min(gaa_list) if svp_list else '-'
     }
