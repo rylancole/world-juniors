@@ -79,5 +79,10 @@ def main():
   with open('../json/ep-player-data.json', 'w') as json_file:
     json_file.write(json.dumps(players, indent=4))
 
+  print('''
+  Player data has been fetched from https://www.eliteprospects.com and written to /json/ep-player-data.json
+  Run `python3 merge-data.py` to update the data in /json/merged-player-data.json
+  ''')
+
 if __name__ == "__main__":
   main()

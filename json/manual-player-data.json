@@ -1,0 +1,284 @@
+{
+    " Sweden": {
+        "Lucas Raymond": {
+            "SOG": 3,
+            "TPM": 16
+        },
+        "Tobias Bj\u00f6rnfot": {
+            "SOG": 0,
+            "TPM": 18
+        },
+        "Alexander Holtz": {
+            "SOG": 5,
+            "TPM": 18
+        },
+        "Theodor Niederbach": {
+            "SOG": 2,
+            "TPM": 14
+        },
+        "Philip Broberg": {
+            "SOG": 3,
+            "TPM": 17
+        },
+        "Victor S\u00f6derstr\u00f6m": {
+            "SOG": 1,
+            "TPM": 21
+        },
+        "Simon Holmstr\u00f6m": {
+            "SOG": 3,
+            "TPM": 14
+        },
+        "Arvid Costmar": {
+            "SOG": 3,
+            "TPM": 15
+        },
+        "Gustav Berglund": {
+            "SOG": 0,
+            "TPM": 0
+        }
+    },
+    " Finland": {
+        "Anton Lundell": {
+            "SOG": 4,
+            "TPM": 16
+        },
+        "Joel Blomqvist": {
+            "SOG": 0,
+            "TPM": 0
+        },
+        "Mikko Kokkonen": {
+            "SOG": 1,
+            "TPM": 14
+        },
+        "Topi Niemel\u00e4": {
+            "SOG": 4,
+            "TPM": 16
+        },
+        "Roby J\u00e4rventie": {
+            "SOG": 4,
+            "TPM": 14
+        },
+        "Ville Heinola": {
+            "SOG": 7,
+            "TPM": 23
+        },
+        "Santeri Hatakka": {
+            "SOG": 1,
+            "TPM": 20
+        },
+        "Brad Lambert": {
+            "SOG": 6,
+            "TPM": 13
+        }
+    },
+    " Russia": {
+        "Rodion Amirov": {
+            "SOG": 0,
+            "TPM": 0
+        },
+        "Mikhail Abramov": {
+            "SOG": 2,
+            "TPM": 18
+        },
+        "Yegor Chinakhov": {
+            "SOG": 3,
+            "TPM": 13
+        },
+        "Semyon Chistyakov": {
+            "SOG": 2,
+            "TPM": 22
+        },
+        "Yan Kuznetsov": {
+            "SOG": 0,
+            "TPM": 18
+        },
+        "Ilya Safonov": {
+            "SOG": 1,
+            "TPM": 15
+        },
+        "Shakir Mukhamadullin": {
+            "SOG": 0,
+            "TPM": 21
+        },
+        "Yegor Afanasyev": {
+            "SOG": 0,
+            "TPM": 13
+        },
+        "Vasili Podkolzin": {
+            "SOG": 2,
+            "TPM": 21
+        },
+        "Marat Khusnutdinov": {
+            "SOG": 0,
+            "TPM": 17
+        },
+        "Daniil Chayka": {
+            "SOG": 1,
+            "TPM": 17
+        }
+    },
+    " USA": {
+        "Cameron York": {
+            "SOG": 4,
+            "TPM": 22
+        },
+        "Matthew Boldy": {
+            "SOG": 0,
+            "TPM": 19
+        },
+        "Trevor Zegras": {
+            "SOG": 1,
+            "TPM": 18
+        },
+        "Cole Caufield": {
+            "SOG": 5,
+            "TPM": 17
+        },
+        "Bobby Brink": {
+            "SOG": 2,
+            "TPM": 13
+        },
+        "Arthur Kaliyev": {
+            "SOG": 2,
+            "TPM": 15
+        },
+        "Ryan Johnson": {
+            "SOG": 0,
+            "TPM": 14
+        },
+        "Henry Thrun": {
+            "SOG": 0,
+            "TPM": 15
+        },
+        "Sam Colangelo": {
+            "SOG": 0,
+            "TPM": 5
+        },
+        "Matthew Beniers": {
+            "SOG": 3,
+            "TPM": 16
+        },
+        "Alex Turcotte": {
+            "SOG": 2,
+            "TPM": 17
+        },
+        "Jake Sanderson": {
+            "SOG": 0,
+            "TPM": 17
+        }
+    },
+    " Canada": {
+        "Thomas Harley": {
+            "SOG": 3,
+            "TPM": 19
+        },
+        "Philip Tomasino": {
+            "SOG": 4,
+            "TPM": 11
+        },
+        "Dylan Cozens": {
+            "SOG": 6,
+            "TPM": 14
+        },
+        "Jamie Drysdale": {
+            "SOG": 3,
+            "TPM": 20
+        },
+        "Dylan Holloway": {
+            "SOG": 2,
+            "TPM": 15
+        },
+        "Kaiden Guhle": {
+            "SOG": 1,
+            "TPM": 18
+        },
+        "Connor McMichael": {
+            "SOG": 3,
+            "TPM": 14
+        },
+        "Alex Newhook": {
+            "SOG": 3,
+            "TPM": 14
+        },
+        "Jakob Pelletier": {
+            "SOG": 2,
+            "TPM": 13
+        },
+        "Peyton Krebs": {
+            "SOG": 2,
+            "TPM": 14
+        },
+        "Braden Schneider": {
+            "SOG": 0,
+            "TPM": 1
+        },
+        "Bowen Byram": {
+            "SOG": 0,
+            "TPM": 21
+        },
+        "Jack Quinn": {
+            "SOG": 0,
+            "TPM": 11
+        },
+        "Cole Perfetti": {
+            "SOG": 5,
+            "TPM": 12
+        },
+        "Connor Zary": {
+            "SOG": 0,
+            "TPM": 0
+        },
+        "Quinton Byfield": {
+            "SOG": 0,
+            "TPM": 10
+        }
+    },
+    " Czech Republic": {
+        "Jaromir Pytlik": {
+            "SOG": 1,
+            "TPM": 17
+        },
+        "Jan Mysak": {
+            "SOG": 2,
+            "TPM": 19
+        },
+        "Stanislav Svozil": {
+            "SOG": 0,
+            "TPM": 15
+        }
+    },
+    " Germany": {
+        "John-Jason Peterka": {
+            "SOG": 8,
+            "TPM": 47
+        },
+        "Tim St\u00fctzle": {
+            "SOG": 8,
+            "TPM": 48
+        }
+    },
+    " Switzerland": {
+        "Simon Knak": {
+            "SOG": 8,
+            "TPM": 20
+        },
+        "Inaki Baragano": {
+            "SOG": 3,
+            "TPM": 16
+        },
+        "Noah Meier": {
+            "SOG": 1,
+            "TPM": 15
+        }
+    },
+    " Austria": {
+        "Marco Rossi": {
+            "SOG": 0,
+            "TPM": 0
+        },
+        "Senna Peeters": {
+            "SOG": 0,
+            "TPM": 0
+        }
+    }
+}

@@ -8,17 +8,17 @@ def main():
     player_data = json.loads(json_file.read())
 
   team_data = {}
+  manual_framework = {}
 
   for user in draft_data:
     for player in draft_data[user]:
       team = player_data[player]['team']
-      if team in team_data.keys():
-        team_data[team].append(player)
-      else:
-        team_data[team] = [player]
+      if team not in team_data.keys():
+        team_data[team] = {}
+      team_data[team][player] = {"SOG": 0, "TPM": 0}
   
-  print(json.dumps(team_data, indent=4))
 
+  print(json.dumps(team_data, indent=4))
 
 if __name__ == "__main__":
   main()
